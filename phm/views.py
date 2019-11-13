@@ -55,7 +55,6 @@ def show(request, task_id):
             feature_desc=conver_feature_desc(v)
         )
         part_2_view_list.append(temp)
-        break
 
     features_rel = data["features_rel"]
     features_target_rel = conver_features_target_rel(data["features_target_rel"], problem_category)
